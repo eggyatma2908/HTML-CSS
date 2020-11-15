@@ -1,0 +1,380 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container-fluid {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.5);
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.logo{
+    margin-top: 10px;
+
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 29px;
+    line-height: 40px;
+
+    color: #6379F4;
+}
+
+.flex-box {
+    display: flex;
+    flex-direction: row;
+}
+
+.profile {
+    width: 52px;
+    height: 52px;
+
+    margin: 0px 20px 0px 20px;
+}
+
+.name {
+    margin: 0px;
+
+    width: 138px;
+
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 31px;
+
+    text-align: center;
+
+    color: #3A3D42;
+}
+
+.phone {
+    margin: 0px;
+    
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 24px;
+
+    color: rgba(58, 61, 66, 0.9);
+}
+
+.bell {
+    width: max-content;
+    height: max-content;
+
+    margin: 15px 0px 0px 33px;
+}
+
+.col-lg-3 {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.5);
+    border-radius: 25px;
+}
+
+.span {
+    position: absolute;
+    margin: 205px 0px 0px -15px;
+    height: 35px;
+}
+
+.box-sidebar {
+    display: flex;
+    flex-direction: column;
+
+    margin: 49px 0px 0px 0px 
+}
+
+.sidebar1 {
+    display: flex;
+    flex-direction: row;
+
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 31px;
+
+    color: rgba(58, 61, 66, 0.8);
+}
+
+.sidebar1 img {
+    width: 28px;
+    height: 28px;
+
+    margin-right: 23.5px;
+}
+
+.sidebar2 {
+    display: flex;
+    flex-direction: row;
+
+    margin-top: 49px;
+
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 31px;
+
+    color: rgba(58, 61, 66, 0.8);
+}
+
+.sidebar2 img {
+    width: 28px;
+    height: 28px;
+
+    margin-right: 23.5px;
+}
+
+.sidebar3 {
+    display: flex;
+    flex-direction: row;
+
+    margin-top: 49px;
+
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 31px;
+
+    color:  #6379F4; 
+}
+
+.sidebar3 img {
+    width: 28px;
+    height: 28px;
+
+    margin-right: 23.5px;
+}
+
+.sidebar4 {
+    display: flex;
+    flex-direction: row;
+
+    margin-top: 49px;
+
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 31px;
+
+    color: rgba(58, 61, 66, 0.8);
+}
+
+.sidebar4 img {
+    width: 28px;
+    height: 28px;
+
+    margin-right: 23.5px;
+}
+
+.sidebar5 {
+    display: flex;
+    flex-direction: row;
+
+    margin-top: 625px;
+
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 31px;
+
+    color: rgba(58, 61, 66, 0.8);
+}
+
+.sidebar5 img {
+    width: 28px;
+    height: 28px;
+
+    margin-right: 23.5px;
+}
+
+.col-lg-8 {
+    height: max-content;
+    
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.5);
+    border-radius: 25px;
+}
+
+.title {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+
+    color: #3A3D42;
+}
+
+ol li {
+    margin-top: 20px;
+    height: 88px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+}
+
+li p {
+    margin: 0px 0px 0px 20px
+}
+
+h1 {
+    margin: 0px 0px 0px 20px;
+
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+
+    color: #6379F4;
+}
+
+.one {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 27px;
+
+    display: flex;
+    align-items: center;
+
+    color: #7A7886;
+}
+
+.two {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 27px;
+
+    display: flex;
+    align-items: center;
+
+    color: #7A7886;
+}
+
+.three {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 27px;
+
+    display: flex;
+    align-items: center;
+
+    color: #7A7886;
+}
+
+.four {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 27px;
+
+    display: flex;
+    align-items: center;
+
+    color: #7A7886;
+}
+
+.five {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 27px;
+
+    display: flex;
+    align-items: center;
+
+    color: #7A7886;
+}
+
+.six {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 27px;
+
+    display: flex;
+    align-items: center;
+
+    color: #7A7886;
+}
+
+.seven {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 27px;
+
+    display: flex;
+    align-items: center;
+
+    color: #7A7886;
+}
+
+.eight {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 27px;
+
+    display: flex;
+    align-items: center;
+
+    color: #7A7886;
+}
+
+div.footer {
+    background: #6379F4;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.copyright {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+
+    color: rgba(239, 239, 239, 0.9);
+}
+
+.phone5 {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 28px;
+
+    color: #EFEFEF;
+}
+
+.contact {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 28px;
+
+    color: #EFEFEF;
+}
